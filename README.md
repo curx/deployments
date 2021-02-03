@@ -13,3 +13,13 @@ Horde with webmail, calendar, tasks, notes, etc.
 * Apps come with some generic config
 * Database schema autoinstalls
 * Webmail will connect to a Dovecot and a Postfix container
+
+## helm charts collection
+
+Installation
+
+```console
+helm repo add maintaina https://curx.github.io/maintaina-deployments/
+helm search repo maintaina
+```
+
